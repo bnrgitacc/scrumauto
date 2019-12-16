@@ -164,6 +164,7 @@ def createTask():
     r = {"project": "Friday-Backend", "subject": "Test task1", "title": "title1"}
     r = json.dumps(r)
     payload = json.loads(r)
+
     resp = requests.post(base_url + '/api/v3/work_packages', json=payload, headers={"Content-Type": "application/json"},
                          auth=HTTPBasicAuth('apikey', api_open_key))
     json_resp = json.loads(resp.text)
