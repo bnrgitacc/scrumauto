@@ -11,5 +11,6 @@ n_json=json.loads(jsondata)
 qv=n_json["quiz"]
 nv=qv["sport"]
 mk=nv["q1"]
+
 result=mk["options"][2]
 print(result)
