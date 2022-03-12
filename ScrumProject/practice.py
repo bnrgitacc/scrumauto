@@ -14,3 +14,4 @@ mk=nv["q1"]
 
 result=mk["options"][2]
 print(result)
+print(result)

@@ -96,7 +96,7 @@ statuses = [
     {
         "status": 'hold',
         "_type": "Status",
-        "id": 14,
+        "id": 15,
         "name": "On hold",
         "color": "#FFC078",
         "_links": {
@@ -108,7 +108,7 @@ statuses = [
 ]
 
 # open project Credentials
-base_url = 'https://projects.purviewservices.com'
+base_url = 'https://app.purviewservices.com'
 api_key = '5fd2f528af9c77b9041a2b7e9c056efdf9783d737b736b070faba362265e08bb'
 api_open_key = '35dc2023e6d8a3156d90ef3f049975c25bfa00ef9bf022dfd8d27aca79a78a4f'
 
